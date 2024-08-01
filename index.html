@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Guia de Saúde e Bem-Estar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 0.5em 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0 1em;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .article {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .article h3 {
+            color: #4CAF50;
+        }
+        .tips {
+            margin-top: 30px;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .newsletter {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            font-size: 1em;
+        }
+        .newsletter input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+        .newsletter input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seu Guia de Saúde e Bem-Estar</h1>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#articles">Artigos</a>
+        <a href="#tips">Dicas</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    
+    <section id="intro">
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>Explore nosso conteúdo sobre saúde, bem-estar e qualidade de vida.</p>
+        <p>Saúde e bem-estar são essenciais para uma vida plena e satisfatória, abrangendo equilíbrio físico, mental e social. Isso inclui hábitos como alimentação balanceada, exercícios regulares, gestão do estresse e cuidado com a saúde emocional. Além de melhorar a qualidade de vida individual, essas práticas contribuem para uma sociedade mais saudável e produtiva, promovendo relacionamentos positivos e um ambiente emocionalmente estável.
+    
+            <img src="images.jpeg"
+
+
+        </p>
+    </section>
+    
+    <section id="articles">
+        <h2>Artigos Recentes</h2>
+        
+        <div class="article">
+            <h3>Benefícios da Alimentação Saudável</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in leo eu sem malesuada hendrerit.</p>
+            <a href="#">Leia mais</a>
+        </div>
+        
+        <div class="article">
+            <h3>Exercícios para Fortalecer a Musculatura</h3>
+            <p>Curabitur non dui non libero fermentum finibus nec vitae eros.</p>
+            <a href="#">Leia mais</a>
+        </div>
+        
+        <div class="article">
+            <h3>Meditação: Benefícios para a Saúde Mental</h3>
+            <p>Proin fringilla, risus at vestibulum blandit, ligula est sagittis velit, sit amet fermentum felis orci at lectus.</p>
+            <a href="#">Leia mais</a>
+        </div>
+    </section>
+    
+    <section id="tips" class="tips">
+        <h2>Dicas de Saúde</h2>
+        <ul>
+            <li>Mantenha uma dieta equilibrada e rica em nutrientes.</li>
+            <li>Pratique exercícios físicos regularmente.</li>
+            <li>Reserve tempo para relaxamento e meditação.</li>
+            <li>Estabeleça uma rotina de sono regular.</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Preencha o formulário abaixo para enviar sua mensagem:</p>
+        <form action="#" method="POST">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <section class="newsletter">
+        <h2>Inscreva-se em nossa Newsletter</h2>
+        <p>Receba nossos artigos e dicas diretamente no seu email.</p>
+        <form action="#" method="POST">
+            <input type="email" name="email" placeholder="Seu email" required>
+            <input type="submit" value="Inscrever">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Seu Guia de Saúde e Bem-Estar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
