@@ -1,0 +1,73 @@
+style
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 0.5em 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0 1em;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .article {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .article h3 {
+            color: #4CAF50;
+        }
+        .tips {
+            margin-top: 30px;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .newsletter {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            font-size: 1em;
+        }
+        .newsletter input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+        .newsletter input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    
